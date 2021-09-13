@@ -17,9 +17,8 @@ set :keep_releases, 5
 # Version rubis
 set :rbenv_ruby, '3.0.1'
 set :rbenv_type, :system
-# Le niveau de journalisation à sortir. Si vous voulez voir le journal des erreurs en détail, définissez-le sur: debug.
-# 本番環境用のものであれば、 :info程度が普通。
-# Cependant, si vous souhaitez confirmer le comportement, définissez-le sur: debug.
+
+
 set :log_level, :info
 namespace :deploy do
   desc 'Restart application'
